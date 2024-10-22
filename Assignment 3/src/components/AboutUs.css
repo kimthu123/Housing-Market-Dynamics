@@ -1,0 +1,87 @@
+/* General page styling */
+.about-us {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .about-us h1, .about-us h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0 auto 20px auto;
+    max-width: 800px;
+  }
+  
+  /* Company Overview */
+  .company-overview {
+    padding: 40px 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Our Story */
+  .our-story {
+    background-color: #eef;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Meet the Team */
+  .meet-the-team {
+    padding: 40px 20px;
+  }
+  
+  .meet-the-team .team-members {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .meet-the-team .team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  .meet-the-team .team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .meet-the-team .team-member h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .meet-the-team .team-member .position {
+    font-style: italic;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  .meet-the-team .team-member p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.4;
+  }
+  
